@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC757E392427AE2E00FAD6E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC757E382427AE2E00FAD6E8 /* AppDelegate.swift */; };
+		AC757E3B2427AE2E00FAD6E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC757E3A2427AE2E00FAD6E8 /* SceneDelegate.swift */; };
+		AC757E3D2427AE2E00FAD6E8 /* PlaneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC757E3C2427AE2E00FAD6E8 /* PlaneViewController.swift */; };
+		AC757E402427AE2E00FAD6E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC757E3E2427AE2E00FAD6E8 /* Main.storyboard */; };
+		AC757E422427AE3400FAD6E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC757E412427AE3400FAD6E8 /* Assets.xcassets */; };
+		AC757E452427AE3400FAD6E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC757E432427AE3400FAD6E8 /* LaunchScreen.storyboard */; };
+		AC757E502427AE3500FAD6E8 /* Encyclopedia_of_planesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC757E4F2427AE3500FAD6E8 /* Encyclopedia_of_planesTests.swift */; };
+		AC757E5B2427AE3500FAD6E8 /* Encyclopedia_of_planesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC757E5A2427AE3500FAD6E8 /* Encyclopedia_of_planesUITests.swift */; };
+		AC757E692427B73500FAD6E8 /* PlaneTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC757E682427B73500FAD6E8 /* PlaneTableViewCell.swift */; };
+		ACDC691C24295EEA00FB342D /* PlaneTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDC691B24295EEA00FB342D /* PlaneTableViewController.swift */; };
+		ACDC691E242961C900FB342D /* Plane.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDC691D242961C900FB342D /* Plane.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC757E4C2427AE3500FAD6E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC757E2D2427AE2E00FAD6E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC757E342427AE2E00FAD6E8;
+			remoteInfo = "Encyclopedia of planes";
+		};
+		AC757E572427AE3500FAD6E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC757E2D2427AE2E00FAD6E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC757E342427AE2E00FAD6E8;
+			remoteInfo = "Encyclopedia of planes";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC757E352427AE2E00FAD6E8 /* Encyclopedia_of_planes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Encyclopedia_of_planes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC757E382427AE2E00FAD6E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC757E3A2427AE2E00FAD6E8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AC757E3C2427AE2E00FAD6E8 /* PlaneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaneViewController.swift; sourceTree = "<group>"; };
+		AC757E3F2427AE2E00FAD6E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC757E412427AE3400FAD6E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC757E442427AE3400FAD6E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC757E462427AE3400FAD6E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC757E4B2427AE3500FAD6E8 /* Encyclopedia_of_planesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Encyclopedia_of_planesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC757E4F2427AE3500FAD6E8 /* Encyclopedia_of_planesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Encyclopedia_of_planesTests.swift; sourceTree = "<group>"; };
+		AC757E512427AE3500FAD6E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC757E562427AE3500FAD6E8 /* Encyclopedia_of_planesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Encyclopedia_of_planesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC757E5A2427AE3500FAD6E8 /* Encyclopedia_of_planesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Encyclopedia_of_planesUITests.swift; sourceTree = "<group>"; };
+		AC757E5C2427AE3500FAD6E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC757E682427B73500FAD6E8 /* PlaneTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaneTableViewCell.swift; sourceTree = "<group>"; };
+		ACDC691B24295EEA00FB342D /* PlaneTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaneTableViewController.swift; sourceTree = "<group>"; };
+		ACDC691D242961C900FB342D /* Plane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plane.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC757E322427AE2E00FAD6E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC757E482427AE3500FAD6E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC757E532427AE3500FAD6E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC317EBD2432612100B81F49 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ACDC691D242961C900FB342D /* Plane.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AC757E2C2427AE2E00FAD6E8 = {
+			isa = PBXGroup;
+			children = (
+				AC757E372427AE2E00FAD6E8 /* Encyclopedia of planes */,
+				AC757E4E2427AE3500FAD6E8 /* Encyclopedia of planesTests */,
+				AC757E592427AE3500FAD6E8 /* Encyclopedia of planesUITests */,
+				AC757E362427AE2E00FAD6E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC757E362427AE2E00FAD6E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC757E352427AE2E00FAD6E8 /* Encyclopedia_of_planes.app */,
+				AC757E4B2427AE3500FAD6E8 /* Encyclopedia_of_planesTests.xctest */,
+				AC757E562427AE3500FAD6E8 /* Encyclopedia_of_planesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC757E372427AE2E00FAD6E8 /* Encyclopedia of planes */ = {
+			isa = PBXGroup;
+			children = (
+				AC757E382427AE2E00FAD6E8 /* AppDelegate.swift */,
+				AC757E3A2427AE2E00FAD6E8 /* SceneDelegate.swift */,
+				AC757E3C2427AE2E00FAD6E8 /* PlaneViewController.swift */,
+				AC757E3E2427AE2E00FAD6E8 /* Main.storyboard */,
+				ACDC691B24295EEA00FB342D /* PlaneTableViewController.swift */,
+				AC757E682427B73500FAD6E8 /* PlaneTableViewCell.swift */,
+				AC757E412427AE3400FAD6E8 /* Assets.xcassets */,
+				AC757E432427AE3400FAD6E8 /* LaunchScreen.storyboard */,
+				AC757E462427AE3400FAD6E8 /* Info.plist */,
+				AC317EBD2432612100B81F49 /* Model */,
+			);
+			path = "Encyclopedia of planes";
+			sourceTree = "<group>";
+		};
+		AC757E4E2427AE3500FAD6E8 /* Encyclopedia of planesTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC757E4F2427AE3500FAD6E8 /* Encyclopedia_of_planesTests.swift */,
+				AC757E512427AE3500FAD6E8 /* Info.plist */,
+			);
+			path = "Encyclopedia of planesTests";
+			sourceTree = "<group>";
+		};
+		AC757E592427AE3500FAD6E8 /* Encyclopedia of planesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC757E5A2427AE3500FAD6E8 /* Encyclopedia_of_planesUITests.swift */,
+				AC757E5C2427AE3500FAD6E8 /* Info.plist */,
+			);
+			path = "Encyclopedia of planesUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC757E342427AE2E00FAD6E8 /* Encyclopedia_of_planes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC757E5F2427AE3500FAD6E8 /* Build configuration list for PBXNativeTarget "Encyclopedia_of_planes" */;
+			buildPhases = (
+				AC757E312427AE2E00FAD6E8 /* Sources */,
+				AC757E322427AE2E00FAD6E8 /* Frameworks */,
+				AC757E332427AE2E00FAD6E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Encyclopedia_of_planes;
+			productName = "Encyclopedia of planes";
+			productReference = AC757E352427AE2E00FAD6E8 /* Encyclopedia_of_planes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC757E4A2427AE3500FAD6E8 /* Encyclopedia_of_planesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC757E622427AE3500FAD6E8 /* Build configuration list for PBXNativeTarget "Encyclopedia_of_planesTests" */;
+			buildPhases = (
+				AC757E472427AE3500FAD6E8 /* Sources */,
+				AC757E482427AE3500FAD6E8 /* Frameworks */,
+				AC757E492427AE3500FAD6E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC757E4D2427AE3500FAD6E8 /* PBXTargetDependency */,
+			);
+			name = Encyclopedia_of_planesTests;
+			productName = "Encyclopedia of planesTests";
+			productReference = AC757E4B2427AE3500FAD6E8 /* Encyclopedia_of_planesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC757E552427AE3500FAD6E8 /* Encyclopedia_of_planesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC757E652427AE3500FAD6E8 /* Build configuration list for PBXNativeTarget "Encyclopedia_of_planesUITests" */;
+			buildPhases = (
+				AC757E522427AE3500FAD6E8 /* Sources */,
+				AC757E532427AE3500FAD6E8 /* Frameworks */,
+				AC757E542427AE3500FAD6E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC757E582427AE3500FAD6E8 /* PBXTargetDependency */,
+			);
+			name = Encyclopedia_of_planesUITests;
+			productName = "Encyclopedia of planesUITests";
+			productReference = AC757E562427AE3500FAD6E8 /* Encyclopedia_of_planesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC757E2D2427AE2E00FAD6E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Artem Lysevych";
+				TargetAttributes = {
+					AC757E342427AE2E00FAD6E8 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					AC757E4A2427AE3500FAD6E8 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = AC757E342427AE2E00FAD6E8;
+					};
+					AC757E552427AE3500FAD6E8 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = AC757E342427AE2E00FAD6E8;
+					};
+				};
+			};
+			buildConfigurationList = AC757E302427AE2E00FAD6E8 /* Build configuration list for PBXProject "Encyclopedia_of_planes" */;
+			compatibilityVersion = "Xcode 11.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC757E2C2427AE2E00FAD6E8;
+			productRefGroup = AC757E362427AE2E00FAD6E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC757E342427AE2E00FAD6E8 /* Encyclopedia_of_planes */,
+				AC757E4A2427AE3500FAD6E8 /* Encyclopedia_of_planesTests */,
+				AC757E552427AE3500FAD6E8 /* Encyclopedia_of_planesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC757E332427AE2E00FAD6E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC757E452427AE3400FAD6E8 /* LaunchScreen.storyboard in Resources */,
+				AC757E422427AE3400FAD6E8 /* Assets.xcassets in Resources */,
+				AC757E402427AE2E00FAD6E8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC757E492427AE3500FAD6E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC757E542427AE3500FAD6E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC757E312427AE2E00FAD6E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC757E3D2427AE2E00FAD6E8 /* PlaneViewController.swift in Sources */,
+				AC757E392427AE2E00FAD6E8 /* AppDelegate.swift in Sources */,
+				AC757E692427B73500FAD6E8 /* PlaneTableViewCell.swift in Sources */,
+				AC757E3B2427AE2E00FAD6E8 /* SceneDelegate.swift in Sources */,
+				ACDC691E242961C900FB342D /* Plane.swift in Sources */,
+				ACDC691C24295EEA00FB342D /* PlaneTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC757E472427AE3500FAD6E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC757E502427AE3500FAD6E8 /* Encyclopedia_of_planesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC757E522427AE3500FAD6E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC757E5B2427AE3500FAD6E8 /* Encyclopedia_of_planesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC757E4D2427AE3500FAD6E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC757E342427AE2E00FAD6E8 /* Encyclopedia_of_planes */;
+			targetProxy = AC757E4C2427AE3500FAD6E8 /* PBXContainerItemProxy */;
+		};
+		AC757E582427AE3500FAD6E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC757E342427AE2E00FAD6E8 /* Encyclopedia_of_planes */;
+			targetProxy = AC757E572427AE3500FAD6E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC757E3E2427AE2E00FAD6E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC757E3F2427AE2E00FAD6E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC757E432427AE3400FAD6E8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC757E442427AE3400FAD6E8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC757E5D2427AE3500FAD6E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC757E5E2427AE3500FAD6E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC757E602427AE3500FAD6E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QF8MW7TW44;
+				INFOPLIST_FILE = "Encyclopedia of planes/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AL-EncyclopediaOfPlanes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AC757E612427AE3500FAD6E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QF8MW7TW44;
+				INFOPLIST_FILE = "Encyclopedia of planes/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AL-EncyclopediaOfPlanes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		AC757E632427AE3500FAD6E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Encyclopedia of planesTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "LA.Encyclopedia-of-planesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Encyclopedia_of_planes.app/Encyclopedia_of_planes";
+			};
+			name = Debug;
+		};
+		AC757E642427AE3500FAD6E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Encyclopedia of planesTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "LA.Encyclopedia-of-planesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Encyclopedia_of_planes.app/Encyclopedia_of_planes";
+			};
+			name = Release;
+		};
+		AC757E662427AE3500FAD6E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Encyclopedia of planesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "LA.Encyclopedia-of-planesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Encyclopedia of planes";
+			};
+			name = Debug;
+		};
+		AC757E672427AE3500FAD6E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Encyclopedia of planesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "LA.Encyclopedia-of-planesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Encyclopedia of planes";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC757E302427AE2E00FAD6E8 /* Build configuration list for PBXProject "Encyclopedia_of_planes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC757E5D2427AE3500FAD6E8 /* Debug */,
+				AC757E5E2427AE3500FAD6E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC757E5F2427AE3500FAD6E8 /* Build configuration list for PBXNativeTarget "Encyclopedia_of_planes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC757E602427AE3500FAD6E8 /* Debug */,
+				AC757E612427AE3500FAD6E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC757E622427AE3500FAD6E8 /* Build configuration list for PBXNativeTarget "Encyclopedia_of_planesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC757E632427AE3500FAD6E8 /* Debug */,
+				AC757E642427AE3500FAD6E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC757E652427AE3500FAD6E8 /* Build configuration list for PBXNativeTarget "Encyclopedia_of_planesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC757E662427AE3500FAD6E8 /* Debug */,
+				AC757E672427AE3500FAD6E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC757E2D2427AE2E00FAD6E8 /* Project object */;
+}
