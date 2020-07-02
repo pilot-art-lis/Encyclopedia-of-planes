@@ -1,6 +1,3 @@
-
-# Created by https://www.gitignore.io/api/macos,swift,xcode
-
 ### macOS ###
 *.DS_Store
 .AppleDouble
@@ -103,11 +100,3 @@ fastlane/test_output
 !*.xcodeproj/xcshareddata/
 !*.xcworkspace/contents.xcworkspacedata
 /*.gcno
-
-# End of https://www.gitignore.io/api/macos,swift,xcode
-
-Icon?
-**/Solutions
-**/Solution
-**/Secret
-*.key
