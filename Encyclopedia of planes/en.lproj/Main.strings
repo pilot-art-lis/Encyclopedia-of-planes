@@ -1,0 +1,21 @@
+
+/* Class = "UILabel"; text = "Speed:"; ObjectID = "Ihn-e0-39D"; */
+"Ihn-e0-39D.text" = "Speed:";
+
+/* Class = "UINavigationItem"; title = "All planes"; ObjectID = "VJZ-z0-3zY"; */
+"VJZ-z0-3zY.title" = "All planes";
+
+/* Class = "UILabel"; text = "Passengers:"; ObjectID = "WDv-rf-R0N"; */
+"WDv-rf-R0N.text" = "Passengers:";
+
+/* Class = "UILabel"; text = "Distance:"; ObjectID = "bZM-UH-f2y"; */
+"bZM-UH-f2y.text" = "Distance:";
+
+/* Class = "UILabel"; text = "Weight:"; ObjectID = "cxU-hK-hry"; */
+"cxU-hK-hry.text" = "Weight:";
+
+/* Class = "UILabel"; text = "Speed:"; ObjectID = "pEj-lM-qLi"; */
+"pEj-lM-qLi.text" = "Speed:";
+
+/* Class = "UILabel"; text = "Country:"; ObjectID = "xQB-Kc-x2T"; */
+"xQB-Kc-x2T.text" = "Country:";

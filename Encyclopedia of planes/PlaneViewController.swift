@@ -13,6 +13,13 @@ class PlaneViewController: UIViewController {
     //MARK: Properties
     @IBOutlet weak var planeImage: UIImageView!
     @IBOutlet weak var planeModel: UILabel!
+    @IBOutlet weak var getCountry: UILabel!
+    @IBOutlet weak var getWeight: UILabel!
+    @IBOutlet weak var getSpeed: UILabel!
+    @IBOutlet weak var getPassengers: UILabel!
+    @IBOutlet weak var getDistance: UILabel!
+    
+    
     @IBOutlet weak var country: UILabel!
     @IBOutlet weak var weight: UILabel!
     @IBOutlet weak var speed: UILabel!
@@ -32,32 +39,6 @@ class PlaneViewController: UIViewController {
     var speedOfPlane: Double = 0.0
     var numberOfPassengers: Int? = nil
     var distanceOfFlight: Int? = nil
-    //let planeInfo = PlaneTableViewController()
-    //MARK: Navigation
-    
-    //This method lets you configure a view controller before it's presented.
-//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-//        super.prepare(for: segue, sender: PlaneTableViewController.self)
-//        //It’s a good habit to always call super.prepare(for:sender:) whenever you override prepare(for:sender:)
-//
-//        var photo: UIImage?
-//        var model: String
-//        var countryOfDesigning: String
-//        var weightOfPlane: Double
-//        var speedOfPlane: Double
-//        var numberOfPassengers: Int?
-//        var distanceOfFlight: Int?
-//
-//        photo = plane?.photo
-//        model = (plane?.model)!
-//        countryOfDesigning = (plane?.country)!
-//        weightOfPlane = plane?.weight ?? 0.0
-//        speedOfPlane = plane?.speed ?? 0.0
-//        numberOfPassengers = plane?.numberOfPassengers ?? 0
-//        distanceOfFlight = plane?.distance ?? 0
-//
-//        plane = Plane(model: model, photo: photo, country: countryOfDesigning, weight: weightOfPlane, speed: speedOfPlane, passengers: numberOfPassengers!, distance: distanceOfFlight!)
-//    }
     
     //MARK: Actions
     override func viewDidLoad() {
@@ -65,10 +46,10 @@ class PlaneViewController: UIViewController {
         
         planeImage.image = photo
         planeModel.text = model
-        country.text = countryOfDesigning
-        weight.text = String(weightOfPlane)
-        speed.text = String(speedOfPlane)
-        passengers.text = String(numberOfPassengers ?? 0)
-        distance.text = String(distanceOfFlight ?? 0)
+        getCountry.text = countryOfDesigning
+        getWeight.text = String(weightOfPlane)
+        getSpeed.text = String(speedOfPlane)
+        getPassengers.text = String(numberOfPassengers ?? 0)
+        getDistance.text = String(distanceOfFlight ?? 0)
     }
 }
