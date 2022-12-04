@@ -1,0 +1,6 @@
+framework module Pods_Encyclopedia_of_planes_Encyclopedia_of_planesUITests {
+  umbrella header "Pods-Encyclopedia_of_planes-Encyclopedia_of_planesUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

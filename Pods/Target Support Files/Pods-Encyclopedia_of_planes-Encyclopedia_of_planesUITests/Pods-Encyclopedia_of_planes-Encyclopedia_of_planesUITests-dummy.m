@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_Encyclopedia_of_planes_Encyclopedia_of_planesUITests : NSObject
+@end
+@implementation PodsDummy_Pods_Encyclopedia_of_planes_Encyclopedia_of_planesUITests
+@end

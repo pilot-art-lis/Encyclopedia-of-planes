@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03CF8174CE17AF29D29C7083 /* Pods_Encyclopedia_of_planes_Encyclopedia_of_planesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26FAB9DF641A575EE2E58068 /* Pods_Encyclopedia_of_planes_Encyclopedia_of_planesUITests.framework */; };
+		11C872050255D4C425F68E70 /* Pods_Encyclopedia_of_planes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CEB455A35B444F1249A35C9 /* Pods_Encyclopedia_of_planes.framework */; };
 		AC757E392427AE2E00FAD6E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC757E382427AE2E00FAD6E8 /* AppDelegate.swift */; };
 		AC757E3B2427AE2E00FAD6E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC757E3A2427AE2E00FAD6E8 /* SceneDelegate.swift */; };
 		AC757E3D2427AE2E00FAD6E8 /* PlaneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC757E3C2427AE2E00FAD6E8 /* PlaneViewController.swift */; };
@@ -18,6 +20,7 @@
 		AC757E692427B73500FAD6E8 /* PlaneTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC757E682427B73500FAD6E8 /* PlaneTableViewCell.swift */; };
 		ACDC691C24295EEA00FB342D /* PlaneTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDC691B24295EEA00FB342D /* PlaneTableViewController.swift */; };
 		ACDC691E242961C900FB342D /* Plane.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDC691D242961C900FB342D /* Plane.swift */; };
+		ECE0E663014ED7733D786A32 /* Pods_Encyclopedia_of_planesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF8EF140F3B3BEE7C18EAB27 /* Pods_Encyclopedia_of_planesTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A8B19D4753DC14B79DF8C2E /* Pods-Encyclopedia_of_planes-Encyclopedia_of_planesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Encyclopedia_of_planes-Encyclopedia_of_planesUITests.release.xcconfig"; path = "Target Support Files/Pods-Encyclopedia_of_planes-Encyclopedia_of_planesUITests/Pods-Encyclopedia_of_planes-Encyclopedia_of_planesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1CEB455A35B444F1249A35C9 /* Pods_Encyclopedia_of_planes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Encyclopedia_of_planes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26FAB9DF641A575EE2E58068 /* Pods_Encyclopedia_of_planes_Encyclopedia_of_planesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Encyclopedia_of_planes_Encyclopedia_of_planesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3739DDA3A81469ABB0334C3E /* Pods-Encyclopedia_of_planes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Encyclopedia_of_planes.debug.xcconfig"; path = "Target Support Files/Pods-Encyclopedia_of_planes/Pods-Encyclopedia_of_planes.debug.xcconfig"; sourceTree = "<group>"; };
+		4DF58AF3DFB7156E0E7D3C58 /* Pods-Encyclopedia_of_planes-Encyclopedia_of_planesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Encyclopedia_of_planes-Encyclopedia_of_planesUITests.debug.xcconfig"; path = "Target Support Files/Pods-Encyclopedia_of_planes-Encyclopedia_of_planesUITests/Pods-Encyclopedia_of_planes-Encyclopedia_of_planesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7552CD6EABDE6A1894B2508A /* Pods-Encyclopedia_of_planesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Encyclopedia_of_planesTests.release.xcconfig"; path = "Target Support Files/Pods-Encyclopedia_of_planesTests/Pods-Encyclopedia_of_planesTests.release.xcconfig"; sourceTree = "<group>"; };
+		7829C499F29B7EAB681A2737 /* Pods-Encyclopedia_of_planesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Encyclopedia_of_planesTests.debug.xcconfig"; path = "Target Support Files/Pods-Encyclopedia_of_planesTests/Pods-Encyclopedia_of_planesTests.debug.xcconfig"; sourceTree = "<group>"; };
 		AC757E352427AE2E00FAD6E8 /* Encyclopedia_of_planes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Encyclopedia_of_planes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC757E382427AE2E00FAD6E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC757E3A2427AE2E00FAD6E8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,6 +65,8 @@
 		AC757E682427B73500FAD6E8 /* PlaneTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaneTableViewCell.swift; sourceTree = "<group>"; };
 		ACDC691B24295EEA00FB342D /* PlaneTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaneTableViewController.swift; sourceTree = "<group>"; };
 		ACDC691D242961C900FB342D /* Plane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plane.swift; sourceTree = "<group>"; };
+		C7ABF92B7B95231DA3BDB1EF /* Pods-Encyclopedia_of_planes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Encyclopedia_of_planes.release.xcconfig"; path = "Target Support Files/Pods-Encyclopedia_of_planes/Pods-Encyclopedia_of_planes.release.xcconfig"; sourceTree = "<group>"; };
+		CF8EF140F3B3BEE7C18EAB27 /* Pods_Encyclopedia_of_planesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Encyclopedia_of_planesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11C872050255D4C425F68E70 /* Pods_Encyclopedia_of_planes.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECE0E663014ED7733D786A32 /* Pods_Encyclopedia_of_planesTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,12 +90,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03CF8174CE17AF29D29C7083 /* Pods_Encyclopedia_of_planes_Encyclopedia_of_planesUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07230A8E64FBDE4C237D853E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3739DDA3A81469ABB0334C3E /* Pods-Encyclopedia_of_planes.debug.xcconfig */,
+				C7ABF92B7B95231DA3BDB1EF /* Pods-Encyclopedia_of_planes.release.xcconfig */,
+				4DF58AF3DFB7156E0E7D3C58 /* Pods-Encyclopedia_of_planes-Encyclopedia_of_planesUITests.debug.xcconfig */,
+				0A8B19D4753DC14B79DF8C2E /* Pods-Encyclopedia_of_planes-Encyclopedia_of_planesUITests.release.xcconfig */,
+				7829C499F29B7EAB681A2737 /* Pods-Encyclopedia_of_planesTests.debug.xcconfig */,
+				7552CD6EABDE6A1894B2508A /* Pods-Encyclopedia_of_planesTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		25E10D343F3547B2B61A5E39 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1CEB455A35B444F1249A35C9 /* Pods_Encyclopedia_of_planes.framework */,
+				26FAB9DF641A575EE2E58068 /* Pods_Encyclopedia_of_planes_Encyclopedia_of_planesUITests.framework */,
+				CF8EF140F3B3BEE7C18EAB27 /* Pods_Encyclopedia_of_planesTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AC317EBD2432612100B81F49 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +136,8 @@
 				AC757E4E2427AE3500FAD6E8 /* Encyclopedia of planesTests */,
 				AC757E592427AE3500FAD6E8 /* Encyclopedia of planesUITests */,
 				AC757E362427AE2E00FAD6E8 /* Products */,
+				07230A8E64FBDE4C237D853E /* Pods */,
+				25E10D343F3547B2B61A5E39 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -152,6 +193,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC757E5F2427AE3500FAD6E8 /* Build configuration list for PBXNativeTarget "Encyclopedia_of_planes" */;
 			buildPhases = (
+				5089F1AAC34F50A76CAE0C38 /* [CP] Check Pods Manifest.lock */,
 				AC757E312427AE2E00FAD6E8 /* Sources */,
 				AC757E322427AE2E00FAD6E8 /* Frameworks */,
 				AC757E332427AE2E00FAD6E8 /* Resources */,
@@ -169,6 +211,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC757E622427AE3500FAD6E8 /* Build configuration list for PBXNativeTarget "Encyclopedia_of_planesTests" */;
 			buildPhases = (
+				44D799A87F1198BF574E4170 /* [CP] Check Pods Manifest.lock */,
 				AC757E472427AE3500FAD6E8 /* Sources */,
 				AC757E482427AE3500FAD6E8 /* Frameworks */,
 				AC757E492427AE3500FAD6E8 /* Resources */,
@@ -187,6 +230,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC757E652427AE3500FAD6E8 /* Build configuration list for PBXNativeTarget "Encyclopedia_of_planesUITests" */;
 			buildPhases = (
+				F2E421A6126F9C80C78442CF /* [CP] Check Pods Manifest.lock */,
 				AC757E522427AE3500FAD6E8 /* Sources */,
 				AC757E532427AE3500FAD6E8 /* Frameworks */,
 				AC757E542427AE3500FAD6E8 /* Resources */,
@@ -211,7 +255,7 @@
 					420,
 				);
 				LastSwiftUpdateCheck = 1130;
-				LastUpgradeCheck = 1130;
+				LastUpgradeCheck = 1320;
 				ORGANIZATIONNAME = "Artem Lysevych";
 				TargetAttributes = {
 					AC757E342427AE2E00FAD6E8 = {
@@ -273,6 +317,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		44D799A87F1198BF574E4170 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Encyclopedia_of_planesTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5089F1AAC34F50A76CAE0C38 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Encyclopedia_of_planes-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2E421A6126F9C80C78442CF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Encyclopedia_of_planes-Encyclopedia_of_planesUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AC757E312427AE2E00FAD6E8 /* Sources */ = {
@@ -365,6 +478,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -389,7 +503,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -425,6 +539,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -443,7 +558,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -455,12 +570,13 @@
 		};
 		AC757E602427AE3500FAD6E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3739DDA3A81469ABB0334C3E /* Pods-Encyclopedia_of_planes.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QF8MW7TW44;
 				INFOPLIST_FILE = "Encyclopedia of planes/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -474,12 +590,13 @@
 		};
 		AC757E612427AE3500FAD6E8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7ABF92B7B95231DA3BDB1EF /* Pods-Encyclopedia_of_planes.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QF8MW7TW44;
 				INFOPLIST_FILE = "Encyclopedia of planes/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -493,6 +610,7 @@
 		};
 		AC757E632427AE3500FAD6E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7829C499F29B7EAB681A2737 /* Pods-Encyclopedia_of_planesTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -514,6 +632,7 @@
 		};
 		AC757E642427AE3500FAD6E8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7552CD6EABDE6A1894B2508A /* Pods-Encyclopedia_of_planesTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -535,6 +654,7 @@
 		};
 		AC757E662427AE3500FAD6E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DF58AF3DFB7156E0E7D3C58 /* Pods-Encyclopedia_of_planes-Encyclopedia_of_planesUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -554,6 +674,7 @@
 		};
 		AC757E672427AE3500FAD6E8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A8B19D4753DC14B79DF8C2E /* Pods-Encyclopedia_of_planes-Encyclopedia_of_planesUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
